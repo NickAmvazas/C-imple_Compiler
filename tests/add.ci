@@ -1,0 +1,13 @@
+program addpos
+	declare x,sum;
+	#main#
+	{
+		input(x);
+		sum :=0;
+	
+		while(x>0)
+			{
+				x := x - 1;
+			}
+		print(x);
+	}.

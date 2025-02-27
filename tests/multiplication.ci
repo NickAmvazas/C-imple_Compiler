@@ -1,0 +1,22 @@
+program multiplication
+
+declare x;
+
+procedure multi (inout num)
+{
+    i:=1;
+    forcase
+        case (i <= 10)
+        {
+            num := num * i;
+            print(num);
+            i := i + 1;
+        }
+        default print(x);
+}
+#main#
+{
+    input(x);
+    call multi(inout x);
+    print(x+10)
+}.
